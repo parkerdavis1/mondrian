@@ -1,0 +1,58 @@
+body {
+  /* background-image: url(./800px-Piet_Mondriaan\,_1930_-_Mondrian_Composition_II_in_Red\,_Blue\,_and_Yellow.jpg); */
+  /* background-repeat: no-repeat; */
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  width: 75vw;
+  height: 75vw;
+  margin: auto;
+  margin-top: 20px;
+  /* border: 1px red solid; */
+  display: grid;
+  grid-template: 230fr 0 278fr 75fr 90fr / 165fr 495fr 60fr;
+  gap: 25px;
+  background-color: black;
+  box-shadow: 2px 2px 5px gray;
+  /* opacity: 0.5; */
+}
+
+.grid-item {
+  color: transparent;
+  /* border: lightgreen 1px solid; */
+}
+
+#two {
+  grid-column: auto / span 2;
+  grid-row: auto / span 3;
+}
+
+#five {
+  grid-row: auto / span 2;
+}
+
+#six {
+  grid-row: auto / span 2;
+}
+
+.red {
+  background-color: #df2820;
+  z-index: 2;
+}
+
+.blue {
+  background-color: #015da0;
+  z-index: 2;
+}
+
+.yellow {
+  background-color: #ecda6a;
+  z-index: 2;
+}
+
+.white {
+  background-color: #e4e3e2;
+  z-index: 2;
+}
