@@ -6,22 +6,19 @@ body {
 }
 
 .grid-container {
-  width: 90vh;
-  height: 90vh;
+  width: 95vh;
+  height: 95vh;
   margin: auto;
-  margin-top: 20px;
-  /* border: 1px red solid; */
+  margin-top: 2.5vh;
   display: grid;
   grid-template: 230fr 0 278fr 75fr 90fr / 165fr 495fr 60fr;
   gap: 25px;
   background-color: black;
   box-shadow: 2px 2px 5px gray;
-  /* opacity: 0.5; */
 }
 
 .grid-item {
   color: transparent;
-  /* border: lightgreen 1px solid; */
 }
 
 #two {
