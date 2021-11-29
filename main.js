@@ -10,3 +10,6 @@ const resizeCanvas = function() {
 }
 window.addEventListener('load', resizeCanvas);
 window.addEventListener('resize', resizeCanvas);
+
+const two = document.getElementById('two');
+two.innerText = 'height: ' + window.innerHeight + ' / width: ' + window.innerWidth;
