@@ -19,7 +19,7 @@ body {
 
 .grid-item {
   color: transparent;
-  transition: filter .2s ease-out 0s;
+  /* transition: filter .2s ease-out 0s; */
 }
 
 .grid-item:active {
