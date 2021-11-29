@@ -6,8 +6,8 @@ body {
 }
 
 .grid-container {
-  width: 95vh;
-  height: 95vh;
+  width: 95vw;
+  height: 95vw;
   margin: auto;
   margin-top: 2.5vh;
   display: grid;

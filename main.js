@@ -8,4 +8,5 @@ const resizeCanvas = function() {
     elCanvas.style.height = "95vh";
   }
 }
-window.addEventListener('resize', resizeCanvas)
+window.addEventListener('load', resizeCanvas);
+window.addEventListener('resize', resizeCanvas);
