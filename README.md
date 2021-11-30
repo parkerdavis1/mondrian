@@ -3,4 +3,5 @@ I recreated Piet Mondrian's "Composition II with Red Blue and Yellow" using CSS 
 
 [See it here](https://parkerdavis1.github.io/mondrian/)
 
-![Alt text](./800px-Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg)
+Original:
+![Original](./800px-Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg)
