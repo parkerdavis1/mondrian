@@ -13,3 +13,11 @@ window.addEventListener('resize', resizeCanvas);
 
 // const two = document.getElementById('two');
 // two.innerText = 'height: ' + window.innerHeight + ' / width: ' + window.innerWidth;
+
+// const elBody = document.body;
+
+// const darkMode = function() {
+//   document.body.classList.toggle('dark-mode');
+// }
+
+// elBody.onclick = darkMode;

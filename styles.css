@@ -3,7 +3,15 @@ body {
   /* background-repeat: no-repeat; */
   margin: 0;
   padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
+/* .dark-mode {
+  background-color: rgb(40, 40, 40);
+} */
 
 .grid-container {
   width: 95vw;
